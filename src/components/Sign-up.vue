@@ -2,8 +2,33 @@
 <section id="sign-up">
 	<div class="container">
 		<h2>Register to get a work</h2>
-		<h4>Attention! After successful registration and alert, update the list of users in the block from the top</h4>
-		<v-row class="form" style="vertical-align: baseline;">
+		<h4>
+			Attention! After successful registration and alert, 
+			update the list of users in the block from the top
+		</h4>
+		<v-dialog 
+			v-model="dialog.state" 
+			width="400"
+			>
+			<v-card>
+				<v-card-title>
+					{{ dialog.title }}
+				</v-card-title>
+				<v-card-text>
+					{{ dialog.text }}
+				</v-card-text>
+				<v-card-actions>
+					<v-spacer></v-spacer>
+					<v-btn 
+						@click="closeDialog()" 
+						text 
+						color="orange">
+						Ok
+					</v-btn>
+				</v-card-actions>
+			</v-card>
+		</v-dialog>
+		<v-row class="form">
 			<v-col class="form-input" cols="12" sm="6" md="4">
 				<v-text-field 
 					v-model="name"
@@ -99,6 +124,11 @@ export default {
 		phone: null,
 		image: null,
 		position: null,
+		dialog: {
+			state: false,
+			title: 'Congratulations',
+			text: 'You haved successfully passed the registration'
+		},
 	}),
 	validations: {
 		name: {
@@ -214,18 +244,31 @@ export default {
 				if(response.success){
 					console.log(response)
 					this.$emit('reloadUsers')
+					this.dialog.state = true
 					return
 				}
 				console.log(response)
 			} catch(error) {
 				console.log(error)
 			}
+		},
+		closeDialog() {
+			this.dialog.state = !this.dialog.state
 		}
 	},
 }
 </script>
 
 <style scoped>
+	
+	.dialog {
+		width: 450px;
+	}
+	@media(max-width: 450px) {
+		.dialog {
+			width: 320px;
+		}
+	}
 	h2 {
 		color: #070707;
 	}

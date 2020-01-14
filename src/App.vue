@@ -70,7 +70,7 @@ export default {
 			this.$refs.usersComponent.getUsers()
 		}
 	},
-	created() {
+	mounted() {
 		this.getPosition()
 		this.getUserId()
 		this.getToken()
