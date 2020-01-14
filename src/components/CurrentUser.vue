@@ -8,7 +8,7 @@
 			<img v-if="user" :src="user.photo" />
 		</div>
 		<div>
-			<a :alt="user.email" class="logo" href="#"><SignOutIcon></SignOutIcon></a>
+			<a class="logo" href="#"><SignOutIcon></SignOutIcon></a>
 		</div>
 	</div>
 </template>
@@ -24,11 +24,6 @@ export default {
 </script>
 
 <style scoped>
-	@media (max-width: 800px) {
-		.user {
-			display: none!important;
-		}
-	}
 	.avatar {
 		padding: 0 5px;
 	}
@@ -43,6 +38,11 @@ export default {
 		justify-content: flex-end;
 		align-items: center;
 		text-align: right;
+	}
+	@media (max-width: 800px) {
+		.user {
+			display: none;
+		}
 	}
 	.user > .user-info, .avatar {
 		display: flex;

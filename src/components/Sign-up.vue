@@ -260,18 +260,6 @@ export default {
 </script>
 
 <style scoped>
-	
-	.dialog {
-		width: 450px;
-	}
-	@media(max-width: 450px) {
-		.dialog {
-			width: 320px;
-		}
-	}
-	h2 {
-		color: #070707;
-	}
 	section {
 		display: flex;
 		justify-content: center;
@@ -286,12 +274,15 @@ export default {
 		display: flex;
 		padding: 15px 0 0 0;
 	}
+	.container > h2, h4 {
+		padding: 10px 0;
+	}
+	h2 {
+		color: #070707;
+	}
 	.form-input {
 		vertical-align: top;
 		display: inline-block;
-	}
-	.container > h2, h4 {
-		padding: 10px 0;
 	}
 	.file-input {
 		height: 55px;

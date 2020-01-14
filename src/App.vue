@@ -137,8 +137,14 @@ export default {
 		font-weight: 600;
 		font-size: 22px;
 		line-height: 21px;
-		color: #070707!important;
+		color: #070707;
 		padding: 8px 0;
+	}
+	p {
+		font-size: 18px;
+		line-height: 26px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 400;
 	}
 	
 	.p2 {

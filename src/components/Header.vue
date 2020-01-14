@@ -1,6 +1,6 @@
 <template>
 <div>
-	<v-app-bar id="desktop-nav" fixed flat>
+	<v-app-bar fixed flat>
 		<div class="container">
 			<ABZLogo class="logo"></ABZLogo>
 			<div class="navigation">

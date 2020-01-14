@@ -3,7 +3,7 @@
 	<div class="container">
 		<h2>General requirements for the test task</h2>
 		<div class="content">
-			<div class="text">
+			<div class="text p1">
 				<p v-for="(string, index) in paragraphs"
 					:key="index"
 				>{{ string }}</p>

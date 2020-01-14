@@ -71,7 +71,6 @@ export default {
 	}
 	@media(max-width: 920px) {
 		.content {
-			display: flex;
 			align-items: center;
 			flex-direction: column;
 		}
@@ -91,19 +90,14 @@ export default {
 	}
 	@media(max-width: 585px) {
 		.items {
-			width: 100%; 
-			display: flex; 
-			justify-content: center; 
 			flex-direction: column; 
 			align-items: center;
 			text-align: center;
 		}
-		.items .img {
-			height: 115px; 
+		.items .img { 
 			width: 105px;
 		}
 		.items .text {
-			width: 65%;
 			text-align: center;
 		}
 	}

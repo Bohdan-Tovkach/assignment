@@ -20,9 +20,6 @@
 </template>
 
 <style scoped>
-	h2 {
-		color: #070707;
-	}
 	#about p {
 		font-size: 16px;
 		line-height: 22px;
@@ -39,6 +36,9 @@
 		}
 	.text {
 		width: 65%;
+	}
+	h2 {
+		color: #070707;
 	}
 	@media (max-width: 620px) {
 		.content {
