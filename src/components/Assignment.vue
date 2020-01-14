@@ -40,6 +40,7 @@
 	}
 	@media (max-width:990px) {
 		section {
+			background-image: url("../images/bg-1-2.jpg");
 			background-size: auto 100%; 
 			min-height: 640px;
 		}
@@ -49,6 +50,7 @@
 	}
 	@media (max-width:525px) {
 		section {
+			background-image: url("../images/bg-1-3.jpg");
 			text-align: center;
 			background-position: 25% 0%; 
 			background-size: auto 100%; 

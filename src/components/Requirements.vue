@@ -1,5 +1,5 @@
 <template>
-<section id="requirements" :style="`background-image:url(${files.images['bg-2']})`">
+<section id="requirements">
 	<div class="container">
 		<h2>General requirements for the test task</h2>
 		<div class="content">
@@ -43,6 +43,16 @@ export default {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 400;
 	}
+	section {
+		background-image:url("../images/bg-2.jpg");
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 550px;
+		background-position: 55% 40%;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 	.img {
 		width: 46%;
 		height: 380px;
@@ -53,9 +63,15 @@ export default {
 		width: 48%;
 		margin: 30px 0 0 0;
 	}
+	@media(max-width: 990px) {
+		section {
+			background-image:url("../images/bg-2-2.jpg");
+		}
+	}
 	@media(max-width: 600px) {
 		section {
 			background-position: 55% 40%;
+			background-image:url("../images/bg-2-3.jpg");
 		}
 		.content {
 			flex-direction: column-reverse;
@@ -71,21 +87,13 @@ export default {
 			width: 100%;
 		}
 	}
-	section {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		min-height: 550px;
-		background-position: 55% 40%;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
+	
 	.content {
 		justify-content: space-between;
 		display: flex;
 	}
 	.container {
-		padding: 0 25px; 
+		padding: 20px 25px; 
 		max-width: 1170px;
 		color: #fff;
 		display: flex;
