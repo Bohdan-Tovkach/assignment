@@ -153,11 +153,11 @@ export default {
 	}
 	.user-info > a, p, h5 {
 		display: block;
-		color: #4c4b4b;
 		overflow: hidden;
 		text-overflow: ellipsis;
 	}
 	.user-info > a, p {
+		color: #4c4b4b;
 		font-size: 14px;
 		line-height: 20px;
 		font-family: 'Source Sans Pro', sans-serif;

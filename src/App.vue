@@ -90,8 +90,22 @@ export default {
 </script>
 
 <style>
-	@import url('https://fonts.googleapis.com/css?family=Overpass:600|Source+Sans+Pro:400,600,700i&display=swap');
 
+	@font-face {
+		font-family: 'Overpass SemiBold';
+		font-style: normal;
+		src: url("Overpass-SemiBold.ttf") format("truetype");
+	}
+	@font-face {
+		font-family: 'Source Sans Pro Regular';
+		font-style: normal;
+		src: url("SourceSansPro-Regular.ttf") format("truetype");
+	}
+	@font-face {
+		font-family: 'Source Sans Pro Bold';
+		font-style: normal;
+		src: url("SourceSansPro-Bold.ttf") format("truetype");
+	}
 	/* desktop resolution */
 	html {
 		scroll-behavior: smooth;
@@ -109,55 +123,50 @@ export default {
 		font-size: 50px;
 		line-height: 60px;
 		padding: 5px 0 15px;
-		font-family: "Overpass", sans-serif;
-		font-weight: 600;
+		font-family: "Overpass SemiBold", sans-serif;
 	}
 	h2 {
 		font-size: 42px;
 		line-height: 51px;
 		padding: 5px 0 30px;
-		font-family: "Overpass", sans-serif;
-		font-weight: 600;
+		font-family: "Overpass SemiBold", sans-serif;
 	}
 	h3 {
 		font-size: 26px;
 		line-height: 31px;
 		padding: 10px 0;
-		font-family: "Overpass", sans-serif;
-		font-weight: 600;
+		font-family: "Overpass SemiBold", sans-serif;
+		color: #000000;
 	}
 	h4 {
 		font-size: 22px;
 		line-height: 26px;
-		font-family: "Overpass", sans-serif;
-		font-weight: 600;
+		font-family: "Overpass SemiBold", sans-serif;
+		color: #000000;
 	}
 	h5 {
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 600;
+		font-family: 'Source Sans Pro Bold', sans-serif;
 		font-size: 22px;
 		line-height: 21px;
-		color: #070707;
 		padding: 8px 0;
+		color: #000000;
 	}
 	p {
 		font-size: 18px;
 		line-height: 26px;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 400;
+		font-family: 'Source Sans Pro Regular', sans-serif;
+
 	}
 	
 	.p2 {
 		font-size: 16px;
 		line-height: 22px;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 400;
+		font-family: 'Source Sans Pro Regular', sans-serif;
 	}
 	.p3 {
 		font-size: 14px;
 		line-height: 20px;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 400;
+		font-family: 'Source Sans Pro Regular', sans-serif;
 	}
 	a {
 		transition: color 0.2s;
