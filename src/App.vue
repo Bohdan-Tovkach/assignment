@@ -109,27 +109,27 @@ export default {
 		font-size: 50px;
 		line-height: 60px;
 		padding: 5px 0 15px;
-		font-family: "Overpass", sens-sarif;
+		font-family: "Overpass", sans-serif;
 		font-weight: 600;
 	}
 	h2 {
 		font-size: 42px;
 		line-height: 51px;
 		padding: 5px 0 30px;
-		font-family: "Overpass", sens-sarif;
+		font-family: "Overpass", sans-serif;
 		font-weight: 600;
 	}
 	h3 {
 		font-size: 26px;
 		line-height: 31px;
 		padding: 10px 0;
-		font-family: "Overpass", sens-sarif;
+		font-family: "Overpass", sans-serif;
 		font-weight: 600;
 	}
 	h4 {
 		font-size: 22px;
 		line-height: 26px;
-		font-family: "Overpass", sens-sarif;
+		font-family: "Overpass", sans-serif;
 		font-weight: 600;
 	}
 	h5 {
@@ -169,17 +169,15 @@ export default {
 
 	*/
 
-	/* tablet resol... */
+	/* tablet rosolution */
 	@media(max-width: 801px) {
 		h1 {
-			font-family: Overpass;
-			font-weight: 600;
 			font-size: 42px;
 			line-height: 51px;
 		}
 	}
 
-	/* mobile rosol... */
+	/* mobile rosolution */
 	@media(max-width: 480px) {
 		h1 {
 			font-size: 30px;
