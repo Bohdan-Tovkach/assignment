@@ -90,7 +90,9 @@ export default {
 </script>
 
 <style>
-
+	.v-list-item:hover {
+		background-color: #fce2cc;
+	}
 	@font-face {
 		font-family: 'Overpass SemiBold';
 		font-style: normal;
@@ -171,12 +173,6 @@ export default {
 	a {
 		transition: color 0.2s;
 	}
-	/* color: 
-		Primary: #ef6c00;
-		Secondary: #283593:
-		Background: #fff;
-
-	*/
 
 	/* tablet rosolution */
 	@media(max-width: 801px) {

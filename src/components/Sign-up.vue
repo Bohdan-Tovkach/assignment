@@ -258,7 +258,9 @@ export default {
 	},
 }
 </script>
-
+<style>
+	
+</style>
 <style scoped>
 	section {
 		display: flex;
