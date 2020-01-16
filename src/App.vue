@@ -20,7 +20,6 @@
 </template>
 
 <script>
-import { Static } from './content'
 import Header from './components/Header.vue'
 import Assignment from './components/Assignment.vue'
 import About from './components/About.vue'
@@ -33,7 +32,6 @@ import Progress from './components/Progress.vue'
 
 export default {
 	data: () => ({
-		files: Static,
 		currentUser: null,
 		positionList: null,
 		token: null,
