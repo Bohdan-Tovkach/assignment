@@ -8,17 +8,16 @@
 					:key="index"
 				>{{ string }}</p>
 			</div>
-			<div class="img" :style="`background-image:url(${files.images['man-laptop-v1']})`"></div>
+			<div class="img" :style="img"></div>
 		</div>
 	</div>
 </section>
 </template>
 
 <script>
-import { files } from '../content'
 export default {
 	data: () => ({
-		files: files,
+		img: `background-image: url(../images/man-laptop-v1.svg)`,
 		paragraphs: [
 			`Users want to find answers to their questions quickly and data shows that people really care about how 
 			quickly their pages load. The Search team announced speed would be a ranking signal for desktop searches 
