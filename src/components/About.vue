@@ -27,7 +27,7 @@
 		font-weight: 400;
 	}
 	.img {
-			background-image: url('../images/man-mobile.svg');
+			background-image: url('../../public/images/man-mobile.svg');
 			background-position: 60% 0; 
 			background-size: contain;
 			width: 30%;
