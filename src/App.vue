@@ -96,17 +96,17 @@ export default {
 	@font-face {
 		font-family: 'Overpass SemiBold';
 		font-style: normal;
-		src: url("Overpass-SemiBold.ttf") format("truetype");
+		src: url("../public/Overpass-SemiBold.ttf") format("truetype");
 	}
 	@font-face {
 		font-family: 'Source Sans Pro Regular';
 		font-style: normal;
-		src: url("SourceSansPro-Regular.ttf") format("truetype");
+		src: url("../public/SourceSansPro-Regular.ttf") format("truetype");
 	}
 	@font-face {
 		font-family: 'Source Sans Pro Bold';
 		font-style: normal;
-		src: url("SourceSansPro-Bold.ttf") format("truetype");
+		src: url("../public/SourceSansPro-Bold.ttf") format("truetype");
 	}
 	/* desktop resolution */
 	html {
