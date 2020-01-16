@@ -8,7 +8,7 @@
 					:key="index"
 				>{{ string }}</p>
 			</div>
-			<div class="img" :style="img"></div>
+			<div class="img"></div>
 		</div>
 	</div>
 </section>
@@ -17,7 +17,7 @@
 <script>
 export default {
 	data: () => ({
-		img: `background-image: url(../images/man-laptop-v1.svg)`,
+		img: ``,
 		paragraphs: [
 			`Users want to find answers to their questions quickly and data shows that people really care about how 
 			quickly their pages load. The Search team announced speed would be a ranking signal for desktop searches 
@@ -57,6 +57,7 @@ export default {
 		height: 380px;
 		background-size: contain;
 		margin-top: 20px;
+		background-image: url("../images/man-laptop-v1.svg")
 	}
 	.text {
 		width: 48%;
