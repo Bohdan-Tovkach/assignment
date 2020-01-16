@@ -96,17 +96,26 @@ export default {
 	@font-face {
 		font-family: 'Overpass SemiBold';
 		font-style: normal;
-		src: url("../public/Overpass-SemiBold.ttf") format("truetype");
+		src:
+		local('Green Web'),
+    	local('GreenWeb-Regular'), 
+		url("../public/SourceSansPro-Regular.ttf") format("truetype");
 	}
 	@font-face {
 		font-family: 'Source Sans Pro Regular';
 		font-style: normal;
-		src: url("../public/SourceSansPro-Regular.ttf") format("truetype");
+		src:
+		local('Green Web'),
+    	local('GreenWeb-Regular'), 
+		url("../public/SourceSansPro-Regular.ttf") format("truetype");
 	}
 	@font-face {
 		font-family: 'Source Sans Pro Bold';
 		font-style: normal;
-		src: url("../public/SourceSansPro-Bold.ttf") format("truetype");
+		src:
+		local('Green Web'),
+    	local('GreenWeb-Regular'), 
+		url("../public/SourceSansPro-Regular.ttf") format("truetype"); 
 	}
 	/* desktop resolution */
 	html {
