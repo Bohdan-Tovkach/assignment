@@ -32,7 +32,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
-		background-image: url("../../public/images/bg-1.jpg");
+		background-image: url("../images/bg-1.jpg");
 		background-position: 0 25%;
 		background-size: 100% auto; 
 		background-repeat: no-repeat;
@@ -40,7 +40,7 @@
 	}
 	@media (max-width:990px) {
 		section {
-			background-image: url("../../public/images/bg-1-2.jpg");
+			background-image: url("../images/bg-1-2.jpg");
 			background-size: auto 100%; 
 			min-height: 640px;
 		}
@@ -50,7 +50,7 @@
 	}
 	@media (max-width:525px) {
 		section {
-			background-image: url("../../public/images/bg-1-3.jpg");
+			background-image: url("../images/bg-1-3.jpg");
 			text-align: center;
 			background-position: 25% 0%; 
 			background-size: auto 100%; 

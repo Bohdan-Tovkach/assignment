@@ -17,7 +17,7 @@
 <script>
 export default {
 	data: () => ({
-		img: `background-image: url(../../public/images/man-laptop-v1.svg)`,
+		img: `background-image: url(../images/man-laptop-v1.svg)`,
 		paragraphs: [
 			`Users want to find answers to their questions quickly and data shows that people really care about how 
 			quickly their pages load. The Search team announced speed would be a ranking signal for desktop searches 
@@ -43,7 +43,7 @@ export default {
 		font-weight: 400;
 	}
 	section {
-		background-image:url("../../public/images/bg-2.jpg");
+		background-image:url("../images/bg-2.jpg");
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -64,13 +64,13 @@ export default {
 	}
 	@media(max-width: 990px) {
 		section {
-			background-image:url("../../public/images/bg-2-2.jpg");
+			background-image:url("../images/bg-2-2.jpg");
 		}
 	}
 	@media(max-width: 600px) {
 		section {
 			background-position: 55% 40%;
-			background-image:url("../../public/images/bg-2-3.jpg");
+			background-image:url("../images/bg-2-3.jpg");
 		}
 		.content {
 			flex-direction: column-reverse;
